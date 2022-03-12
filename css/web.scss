@@ -1,0 +1,31 @@
+.wrap{   
+   display: flex;
+   justify-content: center;
+   position: relative; /*top, left, right, bottom   움직이려면 당연히*/
+   top: 50vh; // 화면높이 
+   transform: translateY(-50%);
+   a{
+       font-size: 3em;
+       text-decoration: none;
+       padding: 0.5em  1em  ; 
+       border-radius: 0.5em; 
+       transition: 0.5s;     
+   }
+   .naver{
+       background-color: green;
+       color:white;
+   }
+   .naver:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(11, 119, 34);
+    border:3px solid green;   
+    }
+   .google{
+        background-color: blue;
+        color:white;
+   }
+   .daum{
+        background-color: rgb(251, 255, 27);
+        color:rgb(0, 0, 0);
+   }
+}
